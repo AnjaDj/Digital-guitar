@@ -7,7 +7,7 @@ H_d(z) = 1 + z^{-1}
 $$
 
 ![Figure 1. Karplus-Strong block diagram](https://github.com/user-attachments/assets/bc14831e-fb40-4095-881e-a2451da99bad)<br>
-**Figure 1:**Karplus-Strong block diagram <br> <br>
+**Figure 1:** Karplus-Strong block diagram <br> <br>
 The system is excited by a white noise sample of length `N`. It can be noted that this is a modification of the wavetable synthesis. Wavetable synthesis in the feedback path does not use a filter, causing the same signal sample to repeat periodically at the output. On the other hand, in the case of Karplus-Strong synthesis, the signal sample is modified at each "period" using the filter in the feedback path, producing a quasi-periodic signal that sounds more realistic.
 
 The total delay introduced by the system is `N + 1/2` samples, and the fundamental frequency of the resulting tone is:
@@ -40,9 +40,10 @@ $$
 H_b(z) = 1 - z^{-\lfloor \beta N \rfloor}
 $$
 
-where the position on the string is determined by the value of `β ∈ ⟨0, 1⟩`.
-![image](https://github.com/user-attachments/assets/2281de03-378e-4ca7-b689-329d6fb3f099)
-**Figure 2:**Karplus-Strong synthesizer with a comb filter at the input. <br> <br>
+where the position on the string is determined by the value of `β ∈ ⟨0, 1⟩`. <br>
+
+![image](https://github.com/user-attachments/assets/2281de03-378e-4ca7-b689-329d6fb3f099)<br>
+**Figure 2:** Karplus-Strong synthesizer with a comb filter at the input. <br> <br>
 
 ### Nonlinear Effects and Overdrive
 
@@ -57,10 +58,10 @@ x - \frac{x^3}{3}, & -1 < x < 1 \\
 \end{cases}
 $$
 
-The final block diagram of the synthesizer is shown in Figure 3.
+The final block diagram of the synthesizer is shown in Figure 3. <br>
 
-![image](https://github.com/user-attachments/assets/0b239a12-bae5-44fa-98c6-fbb279d70b80)
-**Figure 3:** Block diagram of the Karplus-Strong synthesizer with tone duration control, string plucking position, and an overdrive nonlinear effect at the output. <br> <br>
+![image](https://github.com/user-attachments/assets/0b239a12-bae5-44fa-98c6-fbb279d70b80)<br>
+**Figure 3:** Karplus-Strong synthesizer with tone duration control, string plucking position, and an overdrive nonlinear effect at the output. <br> <br>
 
 ### Tasks
 
