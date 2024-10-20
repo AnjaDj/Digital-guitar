@@ -6,6 +6,8 @@ $$
 H_d(z) = 1 + z^{-1}
 $$
 
+![Figure 1. Karplus-Strong block diagram](https://github.com/user-attachments/assets/bc14831e-fb40-4095-881e-a2451da99bad)
+
 The system is excited by a white noise sample of length `N`. It can be noted that this is a modification of the wavetable synthesis. Wavetable synthesis in the feedback path does not use a filter, causing the same signal sample to repeat periodically at the output. On the other hand, in the case of Karplus-Strong synthesis, the signal sample is modified at each "period" using the filter in the feedback path, producing a quasi-periodic signal that sounds more realistic.
 
 The total delay introduced by the system is `N + 1/2` samples, and the fundamental frequency of the resulting tone is:
