@@ -78,3 +78,16 @@ The final block diagram of the synthesizer is shown in Figure 3. <br>
 11. Demonstrate the overdrive effect on the tones of the C-major scale with a gain of `g = 1000` before the nonlinearity (6).
 12. Write a function that, using some of the functions from Tasks 6, 8, or 10, generates a chord consisting of notes with given frequencies. A chord on the guitar can be seen as a series of notes played simultaneously, with a slight delay between the start of each note.
 13. Using the synthesizer implemented in one of Tasks 6, 8, or 10, play a complete composition. Possible examples include compositions from [Arcade Tones](http://arcadetones.emuunlim.com/), but you can also choose your own.
+
+<br> <br>
+
+## First steps
+[1. Installing conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html) <br>
+[2. Creating environments](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html) <br>
+[3.Install jupyter notebook](https://jupyter.org/install) <br>
+[4. Install numpy](https://numpy.org/install/) <br>
+
+
+## Start the system
+1. conda activate "enviroment_name"
+2. jupyter notebook
