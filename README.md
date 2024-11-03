@@ -91,3 +91,8 @@ The final block diagram of the synthesizer is shown in Figure 3. <br>
 ## Start the system
 1. conda activate "enviroment_name"
 2. jupyter notebook
+
+
+## Note
+Zadaca1.ipynb is the main file and all the other files are just resources for Zadaca1.ipynb <br>
+The easiest way to check this implementation is to simple open the Zadaca1.ipynb file from GitHub page as double click.
